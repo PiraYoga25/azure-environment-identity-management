@@ -116,6 +116,55 @@ This validates the principle of least privilege and confirms correct RBAC implem
 
 ---
 
+## 📸 Screenshots
+
+### 👤 Users in Microsoft Entra ID
+Shows both user accounts created in the tenant.
+
+![Users](screenshots/users.png)
+
+---
+
+### 👥 Security Group Configuration
+Security group used to manage access centrally.
+
+![Security Group](screenshots/security_group.png)
+
+---
+
+### 🔐 Role Assignments (RBAC)
+Displays Reader role assigned to the security group at resource group level.
+
+![RBAC Roles](screenshots/roles.png)
+
+---
+
+### 🏗️ Resource Group Overview
+Azure resource group containing deployed infrastructure.
+
+![Resource Group](screenshots/resource_group_overview.png)
+
+---
+
+### 👥 Group Membership
+Shows User 1 assigned to the security group.
+
+![Group Membership](screenshots/group_membership.png)
+
+---
+
+### 🧪 Access Test — User 1 (Allowed)
+User with group membership successfully accessing resources.
+
+![User 1 Access](screenshots/user1_access_test.png)
+
+---
+
+### 🚫 Access Test — User 2 (Denied)
+User without group membership is denied access.
+
+![User 2 Access](screenshots/user2_access_test.png)
+
 ## 🚀 Outcome
 
 This project successfully demonstrates how Azure identity and access management is structured in enterprise environments, ensuring secure and scalable access control across cloud resources.
